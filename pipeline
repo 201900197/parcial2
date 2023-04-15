@@ -1,10 +1,10 @@
-pipeline{
-agent any
-stages{
-stage('imprimir'){
-steps{
-echo 'ejecucion del pipeline'
-}
-}
-}
+pipeline {
+  agent any
+  stages {
+    stage('imprimir') {
+      steps {
+        echo 'ejecucion del pipeline'
+      }
+    }
+  }
 }
